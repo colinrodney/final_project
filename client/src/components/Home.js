@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { Button, Alert, Breadcrumb, Container} from "react-bootstrap"
-import "./App.css"
+// import "./App.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 
-class App extends Component {
+
+class Home extends Component {
     render(){
       return(
         <Container className="headliner d-lg-flex p-3">
@@ -21,4 +22,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default Home;
